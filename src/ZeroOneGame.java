@@ -2,6 +2,16 @@ import static java.util.Objects.requireNonNull;
 
 /**
  * Created by mdb on 12/04/17.
+ * Alice and Bob are playing the following game:
+
+ The game starts with a sequence of zeroes and ones.
+ Alice and Bob take alternating turns, and Alice always moves first.
+ During each turn, a player removes one element from the sequence that satisfies the following:
+ It is not the first or last element.
+ It must be surrounded by zeroes on both sides.
+ The first player who can't take their turn loses the game.
+ Both players always move optimally.
+
  */
 public final class ZeroOneGame {
     static final String ALICE = "Alice";
